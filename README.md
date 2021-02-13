@@ -1,10 +1,12 @@
 # wsmschatapp
 
-In our application we have a chat module, by using this chat module the customer can ask their doubts/queries and get them solved. For developing the chat module we have used the socket programming. Both client module and server module are hosted on different servers.
+In our application we have a chat module, by using this chat module the customer can ask their doubts/queries and get them solved.
+For developing the chat module we have used the socket programming. Both client module and server module are hosted on different servers.
 
 ![GitHub Logo](https://github.com/shubhamrajput0369/wsmschatapp/blob/main/wsmschatappinterface.png)
 
 In our application we have used Client Server Architecture.
+
 The Client-server model is a distributed application structure that partitions tasks or workload between the providers of a resource or service, called servers, and service requesters called clients. In the client-server architecture, when the client computer sends a request for data to the server through the internet, the server accepts the requested process and delivers the data packets requested back to the client. Clients (remote processors) request and receive service from a centralized server (host computer).
 
 Client computers provide an interface to allow a computer user to request services of the server and to display the results the server returns. Servers wait for requests to arrive from clients and then respond to them. Ideally, a server provides a standardized transparent interface to clients so that clients need not be aware of the specifics of the system (i.e., the hardware and software) that is providing the service. Clients are often situated at workstations or on personal computers, while servers are located elsewhere on the network, usually on more powerful machines.
