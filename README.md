@@ -73,4 +73,5 @@ socket.on('createMessage', (newMessage)=>{
     console.log('newMessage', newMessage);
   })
 
-Now either data can be sent from any side so that a connection is generated between server and client. Then if the server emits a message then the client can listen to that message or if the client emits a message then the server can listen to that message. So we have to generate a socket for both messages emit and message listen on both the server and the client side.
+Now either data can be sent from any side so that a connection is generated between server and client.
+Then if the server emits a message then the client can listen to that message or if the client emits a message then the server can listen to that message. So we have to generate a socket for both messages emit and message listen on both the server and the client side.
