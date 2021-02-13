@@ -40,6 +40,7 @@ npm install socket.io --save
 npm install express --save
 
 Create server in your server side javascript file:
+
 const express = require('express'); // using express
 const socketIO = require('socket.io');
 const http = require('http') 
@@ -57,6 +58,7 @@ io.on('connection', (socket)=>{
 });
 
 Similarly, from the client side, we need to add a script file and then make a connection to a server through which the user sends data to a server.
+
 <script src="/socket.io/socket.io.js"></script>
 <script>
 var socket=io()
