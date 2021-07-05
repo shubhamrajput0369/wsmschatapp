@@ -21,10 +21,10 @@ export default function SignIn() {
           <button className={'button mt-20'} type="submit">Let's Talk!</button>
         </Link>
         <h1 className="heading">Query Window ID </h1>
-        <h3 className="queries">Queries about product: About Product</h3>
-        <h3 className="queries">Queries about order: About Order</h3>
-        <h3 className="queries">Queries about delivery: About Delivery</h3>
-        <h3 className="queries">Queries about payment: About Payment</h3>
+        <h3 className="queries">Queries about product: Product</h3>
+        <h3 className="queries">Queries about order: Order</h3>
+        <h3 className="queries">Queries about delivery: Delivery</h3>
+        <h3 className="queries">Queries about payment: Payment</h3>
         <h3 className="queries">Queries about other: Other</h3>
       </div>
     </div>
